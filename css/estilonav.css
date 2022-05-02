@@ -1,0 +1,52 @@
+.menu{
+    display: flex;
+   /* position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;*/
+
+}
+
+.menu .menulogo img{
+
+    height: 50px;
+    margin-right: 15px;
+
+}
+.menu .menulogo{
+
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    min-height: 70px;
+    background-color: rgb(101, 100, 100);
+
+}
+
+.menu a {
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: larger;
+    
+    
+}
+
+.menu .Menutexto{
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 80%;
+    background-color: rgb(101, 100, 100);
+}
+
+
+.menu a:hover{
+    color: green;
+}
+
+
+

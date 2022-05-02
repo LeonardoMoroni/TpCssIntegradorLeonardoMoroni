@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.oradores{
+display: flex;
+justify-content:center;
+align-items: center;
+padding: 15px;
+background-color: blueviolet;
+
+}
+
+
+.Tarjetero{
+    background-color: aquamarine;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+.Tarjeta{
+    
+    border: 1px solid rgb(171, 171, 171);
+    height: 500px;
+    justify-content: space-evenly;
+}
+
+
+.Tarjeta img{
+  
+    
+    position: relative;
+    height: auto;
+    width: 350px;
+    
+}

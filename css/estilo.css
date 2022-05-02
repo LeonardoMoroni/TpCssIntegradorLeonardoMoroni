@@ -1,0 +1,71 @@
+/*CSS para armar la estructura de la web*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.grid-container > *{
+
+    box-shadow: -1px 1px 7px 0px black;
+    padding: 0px; 
+    text-align: center;
+
+}
+
+
+.header{ grid-area: header;}
+.oradores{grid-area: oradores;}
+.izquierdo{grid-area: izquierdo;}
+.derecho{grid-area: derecho;}
+.formulario{grid-area: formulario;}
+.footer{grid-area: footer;}
+
+
+.grid-container{
+    display: grid;
+    
+    grid-template: 
+      
+     "header " 800px
+     "oradores" 1000px
+     "izquierdo" 500px
+     "derecho" 500px
+     "formulario" 400px
+     "footer" 80px   
+
+    ;
+
+}
+@media (min-width: 1200px) {
+    .grid-container{
+        
+    grid-template: 
+    
+    "header header" 800px
+    "oradores oradores" 600px
+    "izquierdo derecho" 500px
+    "formulario formulario" 400px
+    "footer footer" 80px /
+    50% 50%
+
+    ;
+    }
+
+}
+
+
+
+
